@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    background: #cecece;
+    backdrop-filter: blur(10px);
+}
+
+.logoAndName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 25vw;
+}
+
+.logo {
+    height: 30px;
+    border: 2px solid rgb(85, 56, 138);
+    border-radius: 50%;
+}
+
+.title {
+    text-align: start;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    width: 100%;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35vw;
+}
+
+.lists li,
+.login li {
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    padding: 8px 2px;
+    transition: .1s ease-in;
+    font-size: large;
+}
+
+.navFocus {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 720px) {
+    .navbar {
+        width: 100vw;
+    }
+
+    .logoAndName {
+        margin-bottom: 10px;
+        justify-content: space-around;
+    }
+
+    .lists {
+        gap: 12px;
+        margin: 0;
+        padding-right: 2px;
+    }
+
+    .lists li,
+    .login li {
+        font-size: medium;
+    }
+}
