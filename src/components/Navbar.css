@@ -24,7 +24,7 @@
 
 .logo {
     height: 30px;
-    border: 2px solid rgb(85, 56, 138);
+    border: 2px solid rgb(71, 151, 55);
     border-radius: 50%;
 }
 
@@ -62,21 +62,32 @@
 @media screen and (max-width: 720px) {
     .navbar {
         width: 100vw;
+        height: 4vh;
     }
 
     .logoAndName {
         margin-bottom: 10px;
         justify-content: space-around;
+        width: 40vw;
+        margin: auto;
+    }
+
+    .title {
+        text-align: start;
+        font-size: 13px;
+        font-weight: 600;
     }
 
     .lists {
         gap: 12px;
         margin: 0;
         padding-right: 2px;
+        justify-content: space-around;
+        width: 50vw;
     }
 
     .lists li,
     .login li {
-        font-size: medium;
+        font-size: 14px;
     }
 }
