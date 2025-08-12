@@ -18,7 +18,6 @@ const Navbar = () => {
 
           <div className='lists'>
             <NavLink className={(e) => { return e.isActive ? "navFocus No-Underline" : "No-Underline" }} to="/"><li>Home</li></NavLink>
-            <NavLink className={(e) => { return e.isActive ? "navFocus No-Underline" : "No-Underline" }} to="/about"><li>About</li></NavLink>
             <NavLink className={(e) => { return e.isActive ? "navFocus No-Underline" : "No-Underline" }} to="/register"><li>Register</li></NavLink>
           </div>
 
