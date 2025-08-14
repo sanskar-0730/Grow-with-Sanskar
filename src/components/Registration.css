@@ -1,11 +1,12 @@
 .contact-form {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .contact-form iframe {
-    height: 95vh;
+    height: 100%;
+    overflow: hidden;
     width: 100%;
-    background-color: #e7d2fd;
     border: none;
 }

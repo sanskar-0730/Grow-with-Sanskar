@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import './Registration.css';
-import Footer from "./Footer";
 
 const RegistrationForm = () => {
 

@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import './Home.css'
-import Footer from './Footer'
 import my_image from '/my_image.png'
 
 const Home = () => {
 
-  const fullText = " Hi, My Name is Sanskar Gupta.";
+  const fullText = " Hi, My Name is Sanskar Gupta";
 
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
