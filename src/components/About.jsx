@@ -1,27 +1,59 @@
-import React from 'react'
-import './About.css'
-import Footer from './Footer'
+import React from 'react';
+import './About.css';
+import Footer from './Footer';
 
 const About = () => {
   return (
     <div className='about'>
 
       <div className='paragraphs'>
-        
-        <p><b>OpenLeaf Library</b> is an innovative project launched by <b>Sanskar Gupta</b>. It functions as a free digital library and serves as a national repository of knowledge and stories, tailored specifically for the young minds of India.</p>
 
-        <p>The objective of this digital platform is to cultivate a reading culture and to foster a sense of pride and curiosity in the youth about their heritage and accomplishments. It also aims to be a central resource of knowledge for the upcoming generations.</p>
+        <p>
+          Hi, I’m <b>Sanskar Gupta</b> — passionate about helping people achieve
+          <b> better health, personal growth, and financial freedom</b>.
+          I believe everyone deserves the chance to live a life full of
+          energy, purpose, and independence.
+        </p>
 
-        <p><b>OpenLeaf Library</b> offers a wide range of quality books that are accessible regardless of location, genre, or level, and can be accessed on various devices. The library is organized into a diverse collection of non-academic books such as fiction, non-fiction, biographies, poetry, classics, comics, and novels. The selection emphasizes Indian history, culture, scientific progress, and other important aspects of the nation's identity.</p>
+        <p>
+          Through my work, I share <b>simple yet powerful strategies </b>
+          for improving wellness, building confidence, and creating additional
+          income streams. This is not just about products or business —
+          it’s about creating a lifestyle that gives you more
+          <b> time, choices, and freedom</b>.
+        </p>
 
-        <p><b>OpenLeaf Library</b> application will be available for Web, Android and iOS users. It will include a array of genres like adventure, mystery, humour, literature, fiction, classics, non-fiction, self-help, history, biographies, comics, picture books, science, and poetry. The content is curated to promote cultural awareness, national pride, and empathy, in line with the concept of 'Vasudhaiva Kutumbakam' or 'The World is One Family'.</p>
+        <p>
+          I connect with people from all walks of life to explore
+          opportunities that align with their <b>goals, values, and vision</b>.
+          Together, we work on creating realistic, actionable steps toward
+          long-term success.
+        </p>
 
-        <p>As a unique digital library, <b>OpenLeaf Library</b> is dedicated to nurture a lifelong passion for reading in the children and adolescents of India.</p>
+        <p>
+          On this platform, you’ll find resources, ideas, and inspiration
+          designed to help you:
+        </p>
+
+        <ul>
+          <li>Improve daily health and energy naturally</li>
+          <li>Develop skills for personal and professional growth</li>
+          <li>Explore income opportunities for a more secure future</li>
+        </ul>
+
+        <p>
+          If you’re ready to make a change, let’s connect and explore
+          how we can build your success story together.
+        </p>
+
+        <div className="cta">
+          <a href="/register" className="cta-btn">Let’s Connect</a>
+        </div>
 
       </div>
-      
-    </div>
-  )
-}
 
-export default About
+    </div>
+  );
+};
+
+export default About;
