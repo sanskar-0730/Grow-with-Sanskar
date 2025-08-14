@@ -57,7 +57,6 @@
   box-shadow: 0 0 15px #00ffe0;
 }
 
-/* Responsive */
 @media screen and (max-width: 768px) {
   .paragraphs {
     padding: 25px;
